@@ -1,3 +1,9 @@
+spring.application.name: betterreads-data-loader
+spring.main.allow-circular-references: true
+
+datadump.location:
+    author: C:\Users\akmap\Documents\ol_dump_authors_2022-11-30.txt
+    works: C:\Users\akmap\Documents\ol_dump_works_2022-11-30.txt
 spring:
     cassandra:
         keyspace-name: main
@@ -15,9 +21,9 @@ datastax.astra:
 
 astra.db:
     id: <id>
-    region: <region>
-    keyspace: <keyspace>
-    application.token: <token>
+    region: asia-south1
+    keyspace: main
+    application.token:  <token>
 
                               
 
